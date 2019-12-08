@@ -11,7 +11,7 @@ public class ReverseInteger {
     }
 
     public int reverse(int n){
-        if (n > Integer.MIN_VALUE && n < Integer.MAX_VALUE && n != 0){
+        if (n != 0){
             int result = 0;
             boolean ifNotReversed = true;
             while (ifNotReversed){
